@@ -1,0 +1,42 @@
+.wrapper {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-item p  {
+    display: flex;
+    min-width: 70px;
+    justify-content: space-between;
+}
+
+.btn {
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: .25s;
+}
+
+.btn:hover {
+    border-color: #333;
+}
+
+.btn:disabled {
+    opacity: 0.75;
+}
+
+.btn-undo {
+    background: #6f42c1;
+    color: white;
+}
+
+.btn-delete {
+    background: #dc3545;
+    color: white;
+}
