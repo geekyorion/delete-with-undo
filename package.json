@@ -1,6 +1,10 @@
 {
   "name": "delete-with-undo",
   "version": "0.0.0",
+  "author": {
+    "name": "geekyorion",
+    "url": "https://github.com/geekyorion"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
